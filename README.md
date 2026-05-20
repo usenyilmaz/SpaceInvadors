@@ -57,7 +57,7 @@ SpaceInvadors is a lightweight terminal game built with pure C# and no external 
 ## Requirements
 
 - **OS:** Windows (required — uses `user32.dll` and `kernel32.dll` Win32 APIs to lock the console window size)
-- **Runtime:** [.NET 10.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/10.0)
+- **Runtime:** None — if you download the standalone `v1.1.0` executable, the .NET runtime is bundled inside. Only needed if building from source: [.NET 10.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/10.0)
 - No third-party NuGet packages are used.
 
 ---
@@ -136,9 +136,16 @@ SpaceInvadors/
 
 | Version | Date       | Notes                        |
 |---------|------------|------------------------------|
-| v1.0.0  | 2026-05-17 | Initial release — fully playable |
+| v1.1.0  | 2026-05-20 | Self-contained build — no dependencies required, runs on any Windows machine |
+| v1.0.0  | 2026-05-17 | Initial release — requires .NET 10.0 SDK |
 
-Download the latest executable from the [Releases page](https://github.com/usenyilmaz/SpaceInvadors/releases/tag/v1.0.0).
+### v1.1.0 — Standalone Release (Recommended)
+
+Download `SpaceInvadors.exe` from the [v1.1.0 release page](https://github.com/usenyilmaz/SpaceInvadors/releases/tag/v1.1.0) and run it directly. No .NET installation or any other dependency required — the runtime is bundled inside the executable. Works on any 64-bit Windows machine out of the box.
+
+### v1.0.0 — Source / SDK Release
+
+The initial release. Requires [.NET 10.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/10.0) to be installed. Download from the [v1.0.0 release page](https://github.com/usenyilmaz/SpaceInvadors/releases/tag/v1.0.0).
 
 ---
 
