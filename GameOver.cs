@@ -14,7 +14,7 @@ public class GameOver
 		this.points = points;
 		Console.Clear();
 		Console.WriteLine("Game Over!!!");
-        Console.WriteLine("Your Spaceship got srushed by a meteor!!!");
+        Console.WriteLine("Your Spaceship got crushed by a meteor!!!");
 		showCredentials(points, readBestScore(BestScoreFile));
         showOptions();
     }

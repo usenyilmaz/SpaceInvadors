@@ -147,7 +147,6 @@ namespace SpaceInvadors
                 foreach (Obstacle o in obstacleQueue)
                 {
                     o.fall(tileSpeed);
-                    
                 }
                 
 
