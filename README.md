@@ -159,4 +159,4 @@ The initial release. Requires [.NET 10.0 SDK](https://dotnet.microsoft.com/en-us
 
 ## Author
 
-**Ural Sen Yilmaz** — [@usenyilmaz](https://github.com/usenyilmaz)
+**Ural Şenyılmaz** — [@usenyilmaz](https://github.com/usenyilmaz)
